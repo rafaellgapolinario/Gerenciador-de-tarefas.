@@ -1,0 +1,62 @@
+ html{
+     font-size: 62.5%;
+ }
+
+#all{
+	font-size:1.6rem;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #F2F2F2; }
+
+
+
+.header1 {
+
+	background-color: #58ACFA;
+	
+	padding: 5px 5px 1px 5px;
+}
+
+.texto1{
+	font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+	background-color: #58ACFA;
+	box-shadow: 1px 1px 11px #000;
+	width: 15%;
+	padding: 1%;
+	margin: 0 auto;
+}
+
+
+.cadastro {
+
+	background-color: #0080FF;
+	border: 1px black solid;
+	padding: 5px 5px 1px 5px;
+}
+
+
+.tarefa1 {
+	font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+	background-color: #A9E2F3;
+	box-shadow: 1px 1px 11px #58FAF4;
+	padding: 1%;
+	margin: 0 auto;
+	box-shadow: 1px 1px 11px #000;
+
+}
+table{
+font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+	background-color: #A9E2F3;
+	font-weight: bold;
+	border-collapse: collapse;
+	width: 100%;
+	box-shadow: 1px 1px 11px #000;
+            
+}
+
+
