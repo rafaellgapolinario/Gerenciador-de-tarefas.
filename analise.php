@@ -15,13 +15,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $descricao = $_POST['descricao'];
     $data = $_POST['data'];
     $prio = $_POST['prio'];
+    $status = $_POST['status'];
 
     
     $document = [
         'nome' => $nome,
         'descricao' => $descricao,
         'data' => $data,
-        'prio' => $prio
+        'prio' => $prio,
+        'status' => $status
     ];
 
     

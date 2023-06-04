@@ -54,6 +54,14 @@
             <option value="Baixa">Baixa</option>
 
         </select><br>
+        <label>
+            <input type="radio" name="status" value="completa" <?php if(isset($_POST['status']) && $_POST['status'] == 'completa') echo 'checked'; ?>>
+            Completa
+        </label>
+        <label>
+            <input type="radio" name="status" value="incompleta" <?php if(isset($_POST['status']) && $_POST['status'] == 'incompleta') echo 'checked'; ?>>
+            Incompleta
+        </label>
         
 
         <input type="submit" value="Salvar">

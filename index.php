@@ -78,6 +78,7 @@
                 <th>DESCRIÇÃO</th>
                 <th>DATA</th><br>
                 <th>PRIORIDADE</th>
+                <th>STATUS</th>
                 
             </tr>
         </thead>
@@ -91,15 +92,12 @@
         <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <label for="status">Filtrar por Status:</label>
         <select name="status" id="status">
-            <option value="completas">Completas</option>
-            <option value="incompletas">Incompletas</option>
+            <option value="completa">Completa</option>
+            <option value="incompleta">Incompleta</option>
         </select>
         <input type="submit" value="Filtrar">
     </form>
-		<h2>Tarefas Cadastradas</h2>
-    <ul>
-        <?php include 'filtro.php'; ?>
-    </ul>
+	
 
 
 	<footer>

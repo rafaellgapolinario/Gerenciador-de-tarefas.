@@ -12,6 +12,7 @@ foreach ($cursor as $document) {
     echo '<td>' . $document->descricao . '</td>';
     echo '<td>' . $document->data . '</td>';
     echo '<td>' . $document->prio . '</td>';
+     echo '<td>' . $document->status . '</td>';
     echo '<td><a href="editar.php?id=' . $document->_id . '">Editar</a> | <a href="deletar.php?id=' . $document->_id . '">Remover</a></td>';
     echo '</tr>';
 }

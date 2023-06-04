@@ -13,7 +13,6 @@ if ($status === 'completas') {
 $query = new MongoDB\Driver\Query($filter);
 $cursor = $manager->executeQuery('ems.tarefas', $query);
 
-foreach ($cursor as $document) {
-    echo '<li>' . $document->task_name . '</li>';
-}
+
+
 ?>
